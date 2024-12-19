@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador ENIGMA</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>  
+</head>
+<body>
+    <div class="container">
+        <h1>Simulador Enigma</h1>
+        <input id="key" placeholder="Digite a palavra-chave (ex: SEGREDO)">
+        <textarea id="message" placeholder="Digite sua mensagem aqui..."></textarea>
+        <button onclick="encryptMessage()">Criptografar</button>
+        <button onclick="decryptMessage()">Descriptografar</button>
+        <button onclick="clearFields()">Limpar</button>
+        <div class="result" id="result">Sua mensagem criptografada ou descriptografada aparecerá aqui</div>
+    </div>
+</body>
+</html>
